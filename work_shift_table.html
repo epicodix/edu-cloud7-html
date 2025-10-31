@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주간 근무 시프트</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>주간 근무 시프트</h1>
+
+    <table>
+        <!-- 테이블의 제목 행 (Header Row) -->
+        <tr>
+            <th>근무자</th>
+            <th>월요일</th>
+            <th>화요일</th>
+            <th>수요일</th>
+            <th>목요일</th>
+            <th>금요일</th>
+            <th>토요일</th>
+            <th>일요일</th>
+        </tr>
+
+        <!-- 첫 번째 근무자 데이터 행 (Data Row) -->
+        <tr>
+            <th>김제미</th>
+            <td>오전 (09:00 - 18:00)</td>
+            <td>오전 (09:00 - 18:00)</td>
+            <td>휴무</td>
+            <td>오전 (09:00 - 18:00)</td>
+            <td>오전 (09:00 - 18:00)</td>
+            <td>야간 (22:00 - 07:00)</td>
+            <td>휴무</td>
+        </tr>
+
+        <!-- 두 번째 근무자 데이터 행 (Data Row) -->
+        <tr>
+            <th>박구글</th>
+            <td>오후 (14:00 - 23:00)</td>
+            <td>휴무</td>
+            <td>오후 (14:00 - 23:00)</td>
+            <td>오후 (14:00 - 23:00)</td>
+            <td>휴무</td>
+            <td>오전 (09:00 - 18:00)</td>
+            <td>오전 (09:00 - 18:00)</td>
+        </tr>
+
+        <!-- 세 번째 근무자 데이터 행 (Data Row) -->
+        <tr>
+            <th>이클라우드</th>
+            <td>휴무</td>
+            <td>야간 (22:00 - 07:00)</td>
+            <td>야간 (22:00 - 07:00)</td>
+            <td>휴무</td>
+            <td>야간 (22:00 - 07:00)</td>
+            <td>휴무</td>
+            <td>야간 (22:00 - 07:00)</td>
+        </tr>
+    </table>
+
+</body>
+</html>
