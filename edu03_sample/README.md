@@ -5,7 +5,9 @@ category: '교육/구름딥다이브'
 tags: ['Tomcat', 'JSP', 'Java', 'Troubleshooting', 'Server', 'macOS']
 ---
 
-# Problem Solve: Tomcat: Tomcat & JSP 실행 삽질기
+
+
+# Problem Solve: Tomcat & JSP 실행 삽질기
 
 ## 📅 Day 3 - 예상치 못한 자바의 등장
 
@@ -254,5 +256,5 @@ tail -f /opt/homebrew/opt/tomcat/libexec/logs/catalina.out
 
 > "와씨 완벽하다" - 문제 해결 직후의 나
 
-```
+
 ```

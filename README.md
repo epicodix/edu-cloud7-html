@@ -13,6 +13,12 @@
 *   `edu01.html`: HTML 기본 구조, `h` 태그, `p` 태그 설명 및 예제
 *   (향후 추가될 내용)
 
+## ☕ 스크린샷 (Screenshot)
+
+![커피숍 메뉴 스크린샷](../asset/coffee_shop_screenshot.png)
+
+---
+
 ## 시작하기
 1.  이 저장소를 클론합니다: `git clone https://github.com/epicodix/edu-cloud7-html.git`
 2.  `edu01.html` 파일을 웹 브라우저로 열어 내용을 확인합니다.
